@@ -1,0 +1,104 @@
+<!-- Write a HTML program, to explain the working of tables by preparing a timetable. (Note:
+Use <caption> tag to set the caption to the table & also use cell spacing, cell padding,
+border, rowspan, colspan etc.). -->
+<html>
+    <head>
+        <title>TIME TABLE</title>
+
+    </head>
+    <body>
+            <center>
+            <font color="red">
+                <h1>K.S.R.M. COLLEGE OF ENGINEERING</h1>
+            </font>
+            <h2>DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</h2>
+            <h3>TIME TABLE FOR B.TECH CSE - IV SEMESTER ALLIED - A SECTION (CRT)</h3>
+        </center>
+        <h3>Room No:PG202</h3> 
+
+        
+            <table 
+                border="2" 
+                cellpadding="10" 
+                cellspacing="0" 
+                width="100%" 
+                height="50%" 
+                style="font-size:20px">
+                <tr align="center" >
+                    <caption style="font-size:40px">TIME TABLE</caption>
+                    <th>DAY</th>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                    <th>6</th>
+                    <th>7</th>
+                </tr>
+                <tr align="center">
+                    <th>PERIOD</th>
+                    <th>9:00 to 10:00</th>
+                    <th>10:00 to 11:00</th>
+                    <th>11:00 to 12:00</th>
+                    <th>12:00 to 1:00</th>
+                    <th>1:00 to 2:00</th>
+                    <th>2:00 to 3:00</th>
+                    <th>3:00 to 4:00</th>
+                </tr>
+                <tr align="center"> 
+                    <th>MON</th>
+                    <td>ML <br> (109)</td>
+                    <td>P&S <br> (109)</td>
+                    <td>DLDCO <br> (202)</td>
+                    <td rowspan="6">
+                        <font 
+                            size="10" 
+                            color="red">L<br>U<br>N<br>C<br>H<br> <br>B<br>R<br>E<br>A<br>K
+                        </font>
+                    </td>
+                    <td>DBMS <br> (202)</td>
+                    <td>DTI<br> (202)</td>
+                    <td>MEFA<br> (202)</td>
+                </tr>
+                <tr align="center">
+                    <th>TUE</th>
+                    <td>DBMS<br> (202)</td>
+                    <td>ML<br> (109)</td>
+                    <td>MEFA<br> (202)</td>
+                    <td colspan = 3>DBMS LAB<br> (E-208)</td>
+                </tr>
+                <tr align="center">
+                    <th>WED</th>
+                    <td>ML <br> (109)</td>
+                    <td>DLDCO<br> (202)</td>
+                    <td>DBMS<br> (202)</td>
+                    <td>MEFA<br> (202)</td>
+                    <td>P&S<br> (109)</td>
+                    <td>DTI<br> (202)</td>
+                </tr>
+                <tr align="center">
+                    <th>THU</th>
+                    <td colspan = 3>FSD-1<br> (MB-209)</td>
+                    <td>ML<br> (109)</td>
+                    <td>DBMS<br> (202)</td>
+                    <td>DLDCO<br> (202)</td>
+                </tr>
+                <tr align="center">
+                    <th>FRI</th>
+                    <td>MEFA<br> (202)</td>
+                    <td>ML<br> (109)</td>
+                    <td>DTI <br> (202)</td>
+                    <td>DLDCO<br> (202)</td>
+                    <td>DBMS<br> (202)</td>
+                    <td>P&S<br> (109)</td>
+                </tr>
+                <tr align="center">
+                    <th>SAT</th>
+                    <td>P&S<br> (109)</td>
+                    <td>DLDCO<br> (202)</td>
+                    <td>SDA<br> (202)</td>
+                    <td colspan = 3>AIML LAB<br> (E-208)</td>
+                </tr>
+        </table>
+    </body>
+</html>
